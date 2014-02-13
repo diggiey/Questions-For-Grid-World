@@ -1,0 +1,24 @@
+1. No the bug doesn't always move to a new location, because sometimes it is turning when it runs into a wall.
+2. The bug starts by moving north and then trun as it turns into things.
+3. If the bug doesn't move, it turns 45 degrees to the right.
+4. A bug leaves behind a flower when it moves.
+5. When the bug hits the edge of the grid it turns until it is able to move again.
+6. When there is a rock in the bugs way, the bug will turn until it is able to move around it.
+7. No the flowers do not move, but they do change color.
+8. A flower is placed down after a bug moves, and then it slowly changes it's color to black.
+9. The rock does not move, and doesn't have any other behavior.
+10. Yes a bug can be on top of a flower, but nothing else can be in the same location.
+
+1. 	0 = North
+	45 = North East
+	90 = East
+	135 = South East
+	180 = South
+	225 = South West
+	270 = West
+	315 = North West
+	360 = North
+
+2. You can move the bug anywhere that is on the map. By moving it outside the map, it createds an error and displays a window.
+3. I used the setColor method to change the color of the actors.
+4. The bug disapears and is removed from the grid.

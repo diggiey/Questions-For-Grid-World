@@ -1,0 +1,24 @@
+Set 7
+1. Act, getMoveLocations, selectMoveLocation, getActors.
+2. A critter acts by getting a list of other actors, processing that list,getting locations to move to, selecting one of them, and moving to the selected location.
+3. No, because the Critter class was designed to represent actors that process other actors and then move.
+4. Get all neighboring actors and process each one to move, another might get what is in front of it and pick where to go from there, and last it could get all neighboring spots and randomly move.
+5. getMoveLocations, which sees where the critter is able to move. selectMoveLocation, which selects from the move locations. And last Act which makes the critter move.
+6. There is no constructer, because there are many different types of critters that can be made.
+
+Set 8
+1. There are different preconditions which make them do different things in the end.
+2. This is because it overrides makeMove so it can do specifically what it wants.
+3. You would create a flower in the old location.
+4. ChameleonCritter doesn't override the getActors method, because this is one of its core steps.
+5. Actor.
+6. getGrid.
+
+Set 9
+1. CrabCritter needs to process the actors so that it doesn't run into them.
+2. A Crab moves back and forth to try to get the actors, but it doesn't always eat its neighbors.
+3. Used to find locations in certain directions.
+4. (2,4) and (4,4)
+5. CrabCritters and Critters both move, but Crabs only move to their sides, while Critters can move any way.
+6. If the crab can't move either way it turns so that it can move.
+7. The CrabCritter objects don't eat eachother because they process eachother.

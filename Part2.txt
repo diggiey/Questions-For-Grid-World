@@ -1,0 +1,7 @@
+1. The variable sideLength is used to tell if the bug is able to move because it might be running into a wall.
+2. Steps is used to compart to sideLength to make sure it doesn't run into a wall.
+3. The turn method is called twice, because it only turns 45 degrees at a time, and when it runs into a wall it has to do a 90 degree turn.
+4. Since boxBug extends, it can access methods from different files.
+5. No, because if a rock is spawned then the bug car run into that and change its square.
+6. Yes if there is a rock that spawned with the bug, then it can change the path of the bug.
+7. Steps will equal zero when the bug runs into a wall or a rock and has to turn.
